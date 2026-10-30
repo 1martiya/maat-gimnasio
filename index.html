@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#087A91">
+  <title>Acceso al gimnasio · MAAT</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; background: #f5f6f4; color: #202522;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: 100%; max-width: 420px; text-align: center; background: white;
+      padding: 34px 25px; border-radius: 24px; box-shadow: 0 10px 35px #00000012; }
+    .logo { width: 66px; height: 66px; margin: 0 auto 18px; display: grid;
+      place-items: center; border-radius: 19px; background: #087A91; color: white;
+      font-size: 30px; font-weight: 800; }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    p { color: #68716e; line-height: 1.5; margin: 0 0 24px; }
+    a { display: block; padding: 15px 18px; border-radius: 12px; text-decoration: none;
+      font-weight: 700; margin-top: 12px; }
+    .primary { background: #087A91; color: white; }
+    .secondary { border: 1px solid #d9e0dd; color: #087A91; background: white; }
+    .small { margin-top: 25px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">M</div>
+    <h1>Bienvenido al gimnasio</h1>
+    <p>Accede a tu aplicación MAAT para continuar.</p>
+    <a class="primary" href="maat://">ABRIR MAAT</a>
+    <p class="small">¿Todavía no tienes la aplicación? Descárgala aquí:</p>
+    <a class="secondary" href="https://apps.apple.com/app/id1471462737">Descargar para iPhone</a>
+    <a class="secondary" href="https://play.google.com/store/apps/details?id=com.arya.checkin">Descargar para Android</a>
+  </main>
+</body>
+</html>
